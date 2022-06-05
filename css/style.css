@@ -1,0 +1,392 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+
+    width: 90%;
+
+    margin: auto;
+
+    display: flex;
+
+    align-content: center;
+}
+
+.logo {
+
+    width: 20%;
+
+    margin-left: 5%;
+}
+
+.content {
+    width: 60%;
+    margin-left: 58%;
+}
+
+.content ul {
+
+    list-style: none;
+}
+
+.content ul li {}
+
+
+.content ul li a {
+
+    color: #97999b;
+
+    text-decoration: none;
+
+    text-transform: capitalize;
+}
+
+.banner {
+    background-image: url(../image/banner.png);
+    min-height: 87vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_content {
+
+    width: 40%;
+
+    text-align: center;
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 50%;
+
+    transform: translate(-50%, 25%);
+}
+
+.banner_content h1 {
+
+    color: white;
+
+    font-size: 32px;
+}
+
+.banner_content h6 {
+
+    color: white;
+
+    padding: 28px;
+
+    font-size: large;
+}
+
+button {
+    background-color: #e80d0d;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 13px 21px;
+    border-radius: 2px;
+    color: white;
+}
+
+button:hover {
+    background-color: #e80d0d;
+
+
+}
+
+.pic_conent {
+
+    margin-left: 30%;
+
+    width: 80%;
+
+    display: flex;
+
+    margin-top: 43px;
+}
+
+.web {
+
+    width: 20%;
+}
+
+.web img {}
+
+.graphic {
+
+    width: 20%;
+}
+
+.graphic img {}
+
+.photo {
+
+    width: 20%;
+}
+
+.photo img {}
+
+.paragraph {
+    width: 40%;
+    margin-left: 39%;
+    margin-top: 53px;
+    margin-bottom: 29px;
+
+}
+
+.paragraph img {}
+
+.gallary {
+
+    width: 80%;
+
+    height: 480px;
+
+    margin-left: 11%;
+
+    display: flex;
+
+    margin-bottom: 112px;
+}
+
+.pic_one {
+    width: 100%;
+    height: 480px;
+    /* margin-left: 23px; */
+}
+
+.pic_one img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic_one h4 {
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+.pic_one h6 {
+
+    color: #d2d3d4;
+
+    text-align: center;
+}
+
+.pic_two {
+    width: 100%;
+    height: 480px;
+    margin-left: 1%;
+}
+
+.pic_two img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic_two h4 {
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+.pic_two h6 {
+
+    color: #d2d3d4;
+
+    text-align: center;
+}
+
+.pic_three {
+    width: 100%;
+    height: 480px;
+    margin-left: 1%;
+}
+
+.pic_three img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic_three h4 {
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+.pic_three h6 {
+
+    color: #d2d3d4;
+
+    text-align: center;
+}
+
+.blog {
+    background-color: #f9f9f9;
+    /* margin: 111px; */
+    width: 100%;
+}
+
+.blog h4 {
+
+    margin-bottom: 115px;
+
+    text-align: center;
+
+    padding-top: 62px;
+
+    text-transform: uppercase;
+
+    font-size: x-large;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.blog_1 {
+    width: 38%;
+    height: 500px;
+    margin-left: 1%;
+}
+
+.blog_1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.blog_2 {
+    width: 38%;
+    height: 500px;
+    margin-left: 3%;
+}
+
+.blog_2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.design_p {
+
+    width: 80%;
+
+    display: flex;
+
+    margin-left: 11%;
+}
+
+.para_one {
+
+    width: 26%;
+}
+
+.para_one h3 {
+
+    margin-top: 25px;
+
+    color: #fb6e52;
+}
+
+.para_one p {
+
+    margin-top: 14px;
+
+    color: #adafb0;
+}
+
+.para_two {
+    width: 26%;
+    margin-left: 25%;
+}
+
+.para_two h3 {
+
+    margin-top: 25px;
+
+    color: #fb6e52;
+}
+
+.para_two p {
+
+    margin-top: 14px;
+
+    color: #adafb0;
+}
+
+footer {
+    background-color: #292c34;
+    margin-top: 37px;
+}
+
+.footer_part {
+
+    width: 80%;
+
+    display: flex;
+
+    margin-left: 16%;
+
+    height: 150px;
+
+    align-items: center;
+}
+
+.logo_two {
+
+    width: 20%;
+}
+
+.logo_two img {
+
+    width: 20%;
+}
+
+.logo_two h6 {
+
+    width: 46%;
+
+    margin-left: 27%;
+
+    color: #54575d;
+
+    margin-top: -27px;
+
+    font-size: 12px;
+}
+
+.menu {
+
+    width: 30%;
+
+    margin-left: 36%;
+}
+
+.menu ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: end;
+}
+
+.menu ul li {
+    margin-left: 21%;
+}
+
+.menu ul li a {
+
+    color: white;
+}
